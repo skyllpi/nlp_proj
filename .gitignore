@@ -1,0 +1,63 @@
+# =============================================================================
+# Python / Conda / venv
+# =============================================================================
+
+# Virtual Environment folders
+# Covers both standard `venv` and Conda environments named `venv`
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables file
+.env
+*.env
+
+# =============================================================================
+# Node.js / Next.js
+# =============================================================================
+
+# The massive folder of downloaded libraries
+node_modules/
+
+# Next.js build cache and output
+.next/
+
+# Log files
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Optional: package lock file (can sometimes cause merge conflicts in teams)
+# For a solo project, you can comment this out if you prefer to track it.
+# package-lock.json
+
+# =============================================================================
+# IDE / Editor specific files
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# =============================================================================
+# Operating System specific files
+# =============================================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
